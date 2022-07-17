@@ -78,28 +78,34 @@ header .toggle img{
     pointer-events: none;
 }
 
-.banner .textbox{
+.banner .textBox{
     position: relative;
     max-width: 50rem;
     z-index: 2;
 }
 
-.banner .textbox h2{
-    color: #Fff;
-    font-size: 3rem;
+.banner .textBox h2{
+    color: #fff;
+    font-size: 3em;
 }
 
-.banner .textbox p{
-    color: #Fff;
-    font-size: 1rem;
+.banner .textBox p{
+    color: #fff;
+    font-size: 1.1em;
     margin: 5px 0 25px;
 }
 
-.banner .textbox a{
+.banner .textBox a{
     position: relative;
     display: inline-block;
     background: #fff;
     color: #111;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    font-weight: 500;
 }
 
 .banner .imgBox{
@@ -116,5 +122,5 @@ header .toggle img{
     position: absolute;
     bottom: 0;
     height: 90%;
-    z-index: 1000;
+    z-index: 10000;
 }

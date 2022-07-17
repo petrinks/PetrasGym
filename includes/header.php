@@ -10,7 +10,7 @@
             <a href="#">Ler Mais</a>
         </div>
         <div class="imgBox">
-            <img src="./content/dorsal.png" alt="">
+            <img src="./content/shape.png" alt="">
         </div>
     </div>
 <main>
