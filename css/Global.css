@@ -7,6 +7,8 @@
     font-family: 'poppins', sans-serif;
 }
 
+/* header */ 
+
 header{
     position: absolute;
     top: 0;
@@ -14,14 +16,16 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 40px 100px;
     z-index: 1000;
 }
 
+/* logo */ 
+
 header .logo{
     position: relative;
-    font-size: 2rem;
+    display: flex;
+    font-size: 2em;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -29,19 +33,48 @@ header .logo{
     text-decoration: none;
 }
 
-
 header .logo span{
 color: gold;
 }
 
-header .toggle{
-    max-width: 5rem;
-    cursor: pointer;
+/* barra de navegacao */ 
+
+header .navigation{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
-header .toggle img{
-    max-width: 100%;
+header .navigation li{
+    list-style: none;
 }
+
+header .navigation li a{
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+    background: #fff;
+    color: #111;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+header .navigation li a:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+header .navigation li a.yellow{
+    background-color:green;
+    color: #fff;
+}
+
+header .navigation li a.yellow:hover{
+    background-color: rgb(2, 109, 2);
+}
+
+/* banner tamanho */ 
 
 .banner{
     position: relative;
@@ -53,6 +86,8 @@ header .toggle img{
     justify-content: flex-start;
     align-items: center;
 }
+
+/* coluna amarela */ 
 
 .banner:before{
     content: '';
@@ -67,6 +102,8 @@ header .toggle img{
     z-index: 1;
 }
 
+/* video bg */ 
+
 .banner video{
     position: absolute;
     top: 0;
@@ -77,6 +114,8 @@ header .toggle img{
     opacity: 0.10;  
     pointer-events: none;
 }
+
+/* caixa de texto do banner */ 
 
 .banner .textBox{
     position: relative;
@@ -105,8 +144,13 @@ header .toggle img{
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 1;
-    font-weight: 500;
 }
+
+.banner .textBox a:hover{
+    background-color: gold;
+}
+
+/* imagem do banner */ 
 
 .banner .imgBox{
     position: relative;
