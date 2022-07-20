@@ -1,12 +1,12 @@
 <?php
 
 include_once './includes/head.php';
-include_once './includes/header.php';
+include_once './includes/headerLogin.php';
 include_once './includes/footer.php';
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
