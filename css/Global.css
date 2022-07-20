@@ -53,26 +53,20 @@ header .navigation li{
 header .navigation li a{
     display: inline-block;
     color: white;
-<<<<<<< HEAD
     margin-right: 2.2rem;
-=======
     margin-right: 40px;
->>>>>>> dfb813515cb3ce6f795d37a473c119e8a809c708
     background: #fff;
     color: #111;
     padding: 7px 15px;
     text-decoration: none;
     font-size: 1.1em;
-<<<<<<< HEAD
     border-radius: 5px;
     font-weight: 500;
-=======
     border-radius: 10px;
->>>>>>> dfb813515cb3ce6f795d37a473c119e8a809c708
 }
 
 header .navigation li a:hover{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(216, 216, 216);
 }
 
 header .navigation li a.yellow{
@@ -81,7 +75,7 @@ header .navigation li a.yellow{
 }
 
 header .navigation li a.yellow:hover{
-    background-color: rgb(2, 109, 2);
+    background-color: rgb(2, 105, 2);
 }
 
 /* banner tamanho */ 
@@ -95,7 +89,6 @@ header .navigation li a.yellow:hover{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-<<<<<<< HEAD
 }
 
 /* coluna amarela */ 
@@ -181,14 +174,11 @@ header .navigation li a.yellow:hover{
     bottom: 0;
     height: 90%;
     z-index: 10000;
-=======
->>>>>>> dfb813515cb3ce6f795d37a473c119e8a809c708
 }
 
 /* coluna amarela */ 
 
-<<<<<<< HEAD
-=======
+
 .banner:before{
     content: '';
     position: absolute;
@@ -268,4 +258,4 @@ header .navigation li a.yellow:hover{
     height: 90%;
     z-index: 10000;
 }
->>>>>>> dfb813515cb3ce6f795d37a473c119e8a809c708
+
