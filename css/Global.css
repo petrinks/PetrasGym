@@ -137,6 +137,7 @@ header .navigation li a.yellow:hover{
     font-size: 1.1em;
     margin: 5px 0 25px;
     max-width: 70%;
+    text-align: justify;
 }
 
 .banner .textBox a{
@@ -184,7 +185,7 @@ header .navigation li a.yellow:hover{
     position: absolute;
     right: 0;
     top: 0;
-    width: 35rem;
+    width: 26rem;
     height: 100%;
     background: goldenrod;
     transform-origin: top;

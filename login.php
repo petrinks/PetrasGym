@@ -26,7 +26,13 @@ include_once './includes/footer.php';
                 <input type="text" name="senha" placeholder="Senha" autofocus>
                 <input type="submit" value="entrar">
             </form>
-            <p>ainda nao tem uma conta? <a href="#" class="conta">Criar conta</a></p>
+            <p>Ou faça login com:</p>
+            <div class="social">
+                <a href="https://github.com/" target="_blank"><img src="./content./github.png"></a>
+                <a href="https://facebook.com/" target="_blank"><img src="./content./facebook.png"></a>
+            </div>
+            <p>ainda nao tem uma conta?</p>
+            <a href="#" class="conta">Criar conta</a>
         </div>
     </section>
 </body>
