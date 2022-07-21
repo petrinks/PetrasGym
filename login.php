@@ -1,7 +1,6 @@
 <?php
 
 include_once './includes/head.php';
-include_once './includes/footer.php';
 
 ?>
 <!DOCTYPE html>
@@ -36,3 +35,11 @@ include_once './includes/footer.php';
     </section>
 </body>
 </html>
+
+
+
+<?php
+
+include_once './includes/footer.php';
+
+?>

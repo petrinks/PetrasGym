@@ -2,7 +2,6 @@
 
 include_once './includes/head.php';
 include_once './includes/header.php';
-include_once './includes/footer.php';
 
 ?>
 
@@ -18,3 +17,10 @@ include_once './includes/footer.php';
             <img src="./content/shape.png" alt="">
         </div>
     </div>
+</header>
+
+<?php
+
+include_once './includes/footer.php';
+
+?>

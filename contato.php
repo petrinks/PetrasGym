@@ -2,7 +2,6 @@
 
 include_once './includes/head.php';
 include_once './includes/headerContato.php';
-include_once './includes/footer.php';
 
 ?>
 
@@ -31,3 +30,10 @@ include_once './includes/footer.php';
     </section>
 </body>
 </html>
+
+
+<?php
+
+include_once './includes/footer.php';
+
+?>
