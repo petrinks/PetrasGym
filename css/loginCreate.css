@@ -46,7 +46,7 @@ body{
     align-items: center;
     background-color: #424242;
     width: 25rem;
-    height: 31rem;
+    height: 26.7rem;
     padding: 2.3rem;
     border-radius: 10px;
 }
@@ -97,27 +97,4 @@ form [type="submit"]{
 
 form [type="submit"]:hover{
     background-color: rgb(2, 105, 2);
-}
-
-p{
-    color: white;
-    padding-top: 12px;
-}
-
-.conta{
-    align-items: center;
-    color: gold;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.conta:hover{
-    text-decoration: none;
-    color: goldenrod;
-}
-
-.social img{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
 }

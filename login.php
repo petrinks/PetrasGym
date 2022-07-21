@@ -1,7 +1,6 @@
 <?php
 
 include_once './includes/head.php';
-include_once './includes/headerLogin.php';
 include_once './includes/footer.php';
 
 ?>
@@ -18,7 +17,7 @@ include_once './includes/footer.php';
     <section class="area-login">
         <div class="login">
             <div>
-                <img src="./content./logo.png" alt="">
+                <a href='index.php' class='logo'>Petras<span>Gym</span></a>
             </div>
 
             <form>
@@ -31,8 +30,8 @@ include_once './includes/footer.php';
                 <a href="https://github.com/" target="_blank"><img src="./content./github.png"></a>
                 <a href="https://facebook.com/" target="_blank"><img src="./content./facebook.png"></a>
             </div>
-            <p>ainda nao tem uma conta?</p>
-            <a href="#" class="conta">Criar conta</a>
+            <p>Ainda não possui uma conta?</p>
+            <a href="loginCreate.php" class="conta">Criar conta</a>
         </div>
     </section>
 </body>
