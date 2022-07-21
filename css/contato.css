@@ -26,12 +26,13 @@ body{
 }
 
 .login{
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #424242;
     width: 25rem;
-    height: 30rem;
+    height: 27.5rem;
     padding: 2.3rem;
     border-radius: 10px;
 }

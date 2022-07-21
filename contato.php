@@ -25,7 +25,6 @@ include_once './includes/headerContato.php';
                 <textarea placeholder="Deixe sua opnião"></textarea>
                 <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
             </form>
-            <p>ainda nao tem uma conta? <a href="#" class="conta">Criar conta</a></p>
         </div>
     </section>
 </body>
