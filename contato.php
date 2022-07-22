@@ -1,7 +1,6 @@
 <?php
 
 include_once './includes/head.php';
-include_once './includes/headerContato.php';
 
 ?>
 
@@ -18,6 +17,7 @@ include_once './includes/headerContato.php';
 <body>
 <section class="area-login">
         <div class="login">
+                <a href="index.php" class='logo'>Petras<span>Gym</span></a>
             <form>
                 <input type="text" id="nomecontatoid" placeholder="Tiago Vale" required="required" name="nome" />
                 <input type="text" id="fonecontatoid" placeholder="(11) 99999-9999" name="fone" />

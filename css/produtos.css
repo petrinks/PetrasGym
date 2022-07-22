@@ -1,13 +1,32 @@
-header{
-    background-color: #111;
+body{
+    background-color: #a9a9a9;
 }
 
-div{
-    background-color: aqua;
+.banner-products{
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 200px;
     margin-top: 136px;
+    background-color: aqua;
 }
-h1{
-    font-size: 300px;
+
+.banner-products div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6.5rem;
+    height: 75px;
+    margin-left: 19px;
+}
+
+.banner-products div h1{
+    font-weight: 600;
+    text-transform: uppercase;
+}   
+
+.banner-products div h5{
+    font-weight: 600;
+    text-transform: uppercase;
 }

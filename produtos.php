@@ -2,14 +2,17 @@
 <?php
 
 include_once './includes/head.php';
-include_once './includes/headerProduto.php';
+include_once './includes/header.php';
 
 ?>
 
 <link rel="stylesheet" href="./css./produtos.css">
 
-<div>
-    <h1>sadasd</h1>
+<div class='banner-products'>
+    <div>
+        <h5>Homem</h5>
+        <h1>Todos os Produtos</h1>
+    </div>
 </div>
 
 

@@ -19,6 +19,29 @@ body{
 }
 
 .area-login{
+    padding-bottom: 70px;
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+
+.logo:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.logo span{
+    color: gold;
+}
+.area-login{
     display: flex;
     height: 100vh;
     align-items: center;
@@ -32,10 +55,11 @@ body{
     align-items: center;
     background-color: #424242;
     width: 25rem;
-    height: 27.5rem;
+    height: 30rem;
     padding: 2.3rem;
     border-radius: 10px;
 }
+
 
 .login form{
     display:flex;
